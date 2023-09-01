@@ -14,20 +14,23 @@ $('.collapseButton').click(function(){
 })
 
 
-// $('.btn_1').click(function(){
+$('.btn_1').click(function(){
 
-//     $('.animate_1').animate({opacity:'0.5'},2000);
-// })
+    $('.animate_1').animate({opacity:'0.5'},1000);
+    $('.animate_1').animate({opacity:'1'},1000);
+})
 
-// $('.btn_2').click(function(){
+$('.btn_2').click(function(){
 
-//     $('.animate_2').animate({opacity:'0.5'},2000);
-// })
+    $('.animate_2').animate({opacity:'0.5'},1000);
+    $('.animate_2').animate({opacity:'1'},1000);
+})
 
-// $('.btn_3').click(function(){
+$('.btn_3').click(function(){
 
-//     $('.animate_3').animate({opacity:'0.5'},500);
-// })
+    $('.animate_3').animate({opacity:'0.5'},1000);
+    $('.animate_3').animate({opacity:'1'},1000);
+})
 
 
 

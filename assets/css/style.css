@@ -66,32 +66,10 @@ a {
     display: none;
 }
 
-@media (max-width: 991px) {
-
-    .menu_part {
-        position: relative;
-    }
-
-    .menu {
-        display: none;
-        position: absolute;
-        left: 0;
-        top: 100%;
-        width: 100%;
-        background: #57606f;
-    }
-    .drop_menu {
-        position: unset;
-    }
-    
-    .collapseButton{
-        display: block;
-    }
-}
 
                 /* Menu Part Ends */
     /* ------------------------------------------------ */
-/* 
+
 .animation {
     display: flex;
     margin-top: 150px;
@@ -114,10 +92,52 @@ a {
 }
 
 .btn_1, .btn_2, .btn_3 {
-    background: rgb(75, 72, 72);
+    background: rgb(11, 11, 11);
     color: #f1f1f1;
     border: 2px solid white;
-    padding: 8px;
+    padding: 5px;
     border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 150px;
 
-} */
+}
+
+
+
+@media (max-width: 991px) {
+
+    .menu_part {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background: #57606f;
+    }
+    .drop_menu {
+        position: unset;
+    }
+    
+    .collapseButton{
+        display: block;
+    }
+    .btn_1, .btn_2, .btn_3 {
+       
+        margin-left: 100px;
+    
+    }
+
+}
+
+@media (max-width: 991px){
+    .animation {
+        display: flex;
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+}
